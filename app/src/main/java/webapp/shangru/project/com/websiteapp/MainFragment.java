@@ -8,11 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import me.maxwin.view.IXListViewRefreshListener;
+import me.maxwin.view.XListView;
+
 /**
  * Created by Shangru on 8/3/16.
  */
 @SuppressLint("ValidFragment")
-public class MainFragment extends Fragment {
+public class MainFragment extends Fragment implements IXListViewRefreshListener, XListView.IXListViewListener {
     private int newsType = 0;
 
     public MainFragment(int newsType) {
@@ -31,5 +34,15 @@ public class MainFragment extends Fragment {
         tip.setText(TabAdapter.TITLES[newsType]);
 
         return view;
+    }
+
+    @Override
+    public void onRefresh() {
+
+    }
+
+    @Override
+    public void onLoadMore() {
+
     }
 }
