@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Shangru/AndroidstudioProjects/WebsiteApp/XListView/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Shangru/AndroidstudioProjects/WebsiteApp/XListView/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Shangru/AndroidstudioProjects/WebsiteApp/XListView/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/xlistview_arrow.png",
+        "source": "/Users/Shangru/AndroidstudioProjects/WebsiteApp/XListView/build/intermediates/bundles/debug/res/drawable-hdpi-v4/xlistview_arrow.png"
+    }
+]
